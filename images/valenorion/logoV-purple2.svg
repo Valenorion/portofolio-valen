@@ -1,0 +1,17 @@
+<svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sketchy circle background -->
+  <path d="M 50 5 Q 75 7 85 25 Q 95 50 88 70 Q 78 92 50 95 Q 22 93 12 70 Q 4 48 15 25 Q 28 6 50 5" stroke="#764ba2" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 50 7 Q 73 8 83 26 Q 93 49 87 69 Q 79 90 50 93 Q 24 91 14 71 Q 6 50 16 27 Q 29 8 50 7" stroke="#764ba2" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- V shape with sketchy lines -->
+  <path d="M 28 32 Q 30 31 32 35 L 48 67 Q 49 69 51 67 L 68 35 Q 69 32 71 32" stroke="#764ba2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Decorative doodle elements -->
+  <path d="M 22 28 L 18 24 M 20 26 L 16 22" stroke="#764ba2" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 78 28 L 82 24 M 80 26 L 84 22" stroke="#764ba2" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Small stars/sparkles -->
+  <circle cx="25" cy="75" r="1.5" fill="#764ba2"/>
+  <circle cx="75" cy="75" r="1.5" fill="#764ba2"/>
+  <circle cx="50" cy="15" r="2" fill="#764ba2"/>
+</svg>
