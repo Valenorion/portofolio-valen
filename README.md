@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website
 
-Website ini adalah portofolio pribadi yang dibuat oleh **Valentio Titan**, seorang programmer pemula yang sedang belajar dan berkembang dalam dunia web development.
+Website ini adalah portofolio pribadi yang dibuat oleh saya (**Valentio Titan**)
 Dibangun dengan fokus pada desain modern, interaktif, dan responsif agar nyaman diakses di berbagai perangkat.
 
 ---
@@ -13,7 +13,6 @@ Dibangun dengan fokus pada desain modern, interaktif, dan responsif agar nyaman 
 * **Scroll-to-Top Button** – Tombol cepat untuk kembali ke atas halaman.
 * **Hamburger Menu** – Navigasi interaktif untuk tampilan mobile.
 * **Contact Form** – Formulir sederhana dengan alert responsif.
-* **Lazy Load Logo Images** – Optimasi performa dengan pemuatan gambar bertahap.
 * **Parallax Effect** – Efek gerak lembut pada gambar di hero section.
 
 ---
@@ -35,12 +34,21 @@ Dibangun dengan fokus pada desain modern, interaktif, dan responsif agar nyaman 
 ├── style.css
 ├── script.js
 ├── /images
-│   ├── profile.jpg
-│   ├── html-logo.png
-│   ├── css-logo.png
-│   ├── js-logo.png
-│   └── ... (logo lainnya)
-└── /assets (opsional untuk file tambahan)
+│   ├── /icons
+│   │   ├── code.svg
+│   │   ├── cpp.svg
+│   │   └── ... (ikon lain)
+│   ├── /illustration
+│   │   ├── project-artikel-ilmiah.png
+│   │   ├── background.jpg
+│   │   └── ... (ilustrasi lain)
+│   ├── /logos
+│   │   ├── udinus.png
+│   │   ├── dncc.png
+│   │   └── ... (logo lain)
+│   └── /valenorrion
+│       ├── logoV-purple.svg
+│       └── ... (gambar lain)
 ```
 
 ---
@@ -66,7 +74,7 @@ Dibangun dengan fokus pada desain modern, interaktif, dan responsif agar nyaman 
 
 ## 📸 Preview
 
-> Tambahkan tangkapan layar (screenshot) dari tampilan website di sini agar lebih menarik!
+> https://valenorion.netlify.app
 
 ---
 
@@ -79,5 +87,5 @@ Fokus saya saat ini adalah menguasai **Frontend Development (HTML, CSS, JavaScri
 
 ## 📝 Lisensi
 
-Proyek ini dibuat untuk keperluan pembelajaran pribadi.
+Proyek ini dibuat untuk TA BTNG Divisi WEB DNCC dan sebagai website portofolio pribadi saya.
 Silakan digunakan, dimodifikasi, atau dikembangkan kembali dengan menyertakan atribusi.
