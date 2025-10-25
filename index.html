@@ -1,151 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio | Valen</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/logoV_white.svg" type="">
-</head>
-<body>
-    <!-- Header / Navigation -->
-    <header>
-        <nav id="navbar">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portofolio | Valen</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="images/valenorion/logoV-white.svg" type="">
+   </head>
+   <body>
+      <!-- Header / Navigation -->
+      <header>
+         <nav id="navbar">
             <div class="logo">
-                <span class="logo-text"><img src="images/logoV_purple2.svg" alt=""></span>
+               <span class="logo-text"><img src="images/valenorion/logoV-purple2.svg" alt="logo Valenorion"></span>
             </div>
             <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
             </div>
             <ul id="navMenu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#portofolio">Portofolio</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+         </nav>
+      </header>
+      <!-- Main -->
+      <main>
 
-    <!-- Scroll to Top Button -->
-    <div class="scroll-top" id="scrollTop">↑</div>
-
-    <!-- Sections -->
-    <main>
-        <!-- Hero -->
-        <section id="home" class="hero">
+         <!-- Hero -->
+         <section id="home" class="hero">
             <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Hi, I'm <span>Valentio Titan</span></h1>
-                    <h2>Novice | Programmer</h2>
-                    <p>Beginner Programmer. Frontend Learner. Future Backend Developer</p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn">View Projects</a>
-                        <a href="#contact" class="btn-outline">Contact Me</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img src="images/valen.png" alt="Valentio Titan">
-                </div>
+               <div class="hero-text">
+                  <h1>Hi, I'm <span>Valen</span></h1>
+                  <h2>Novice | Programmer</h2>
+                  <p>Beginner Programmer. Frontend Learner. Future Developer</p>
+                  <div class="hero-buttons">
+                     <a href="#projects" class="btn">View Projects</a>
+                     <a href="#contact" class="btn-outline">Contact Me</a>
+                  </div>
+               </div>
+               <div class="hero-image">
+                  <img src="images/valenorion/valenorion-roblox.png" alt="Valentio Titan">
+               </div>
             </div>
-        </section>
+         </section>
 
-        <!-- About -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Halo! Saya <b>Valentio Titan</b>, seorang programmer pemula yang sedang belajar dan terus berkembang. Saat ini saya fokus mempelajari frontend development, mulai dari dasar seperti <b>HTML, CSS, dan JavaScript</b>. Namun tujuan saya adalah memahami lebih dalam tentang backend dan pengelolaan basis data. Saya percaya bahwa menjadi developer yang baik berarti memahami keseluruhan alur, dari tampilan yang dilihat pengguna hingga logika yang bekerja di balik layar.
-            </p>
-        </section>
-
-        <!-- Resume -->
-        <section id="resume">
-            <h2>Resume</h2>
-            <div class="resume-grid">
-                <div>
-                    <h3><img src="images/mortarboard.svg" alt="Education" id="h3-img"> Education</h3>
-                    <ul>
-                        <li><strong>Universitas Dian Nuswantoro Semarang</strong>
-                            <br>Teknik Informatika (2024 - Now)</li>
-                        <li>
-                        <strong>SMAI Al Azhar 16 Semarang</strong></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h3><img src="images/tas_kerja.svg" alt="Experience"> Experience</h3>
-                    <ul>
-                        <li><strong>Frontend Developer</strong><br>Building responsive and interactive web interfaces</li>
-                        <li><strong>Backend Developer</strong><br>Developing server-side applications and APIs</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3><img src="images/code.svg" alt="Stack of Resource"> Stack of Resource</h3>
-                    <ul>
-                        <li><strong>C++</strong>
-                            <br>
-                            Bahasa program tingkat rendah.
-                        </li>
-                        <li><strong>HTML | CSS | JS </strong>
-                            <br>
-                            Membangun web dari tampilan hingga interaksi.
-                        </li>
-                        <li><strong>LUA</strong>
-                            <br>
-                            Scripting untuk game development di Roblox.
-                        </li>
-                    </ul>
-                </div>
-
+         <!-- About -->
+         <section id="about" class="about-container">
+            <div class="about-wrapper">
+               <div class="about-image">
+                  <div class="image-placeholder"><img src="images/valenorion/valenorion-roblox.png" alt=""></div>
+               </div>
+               <div class="about-content">
+                  <div class="section-label">About Me</div>
+                  <h2 class="about-title">Hi! I'm Novice Programmer</h2>
+                  <p class="about-description">
+                     Halo! Saya <b>Valentio Titan</b>, seorang programmer pemula yang sedang belajar dan terus berkembang. Saat ini saya fokus mempelajari frontend development, mulai dari dasar seperti <b>HTML, CSS, dan JavaScript</b>. Saya percaya bahwa menjadi developer yang baik berarti memahami keseluruhan alur, dari tampilan yang dilihat pengguna hingga logika yang bekerja di balik layar.
+                  </p>
+                  <div class="skills">
+                     <div class="skills-title">ⓘ Personal Info</div>
+                     <div class="skills-grid">
+                        <div class="skill-item"><strong>Name: </strong>Valen</div>
+                        <div class="skill-item"><strong>Place of Birth: </strong>Semarang, Jawa Tengah</div>
+                        <div class="skill-item"><strong>Email: </strong> valentiobarca@gmail.com</div>
+                        <div class="skill-item"><strong>College: </strong>UDINUS</div>
+                     </div>
+                  </div>
+                  <button class="cta-button">Learn More</button>
+               </div>
             </div>
-        </section>
+         </section>
 
-        <!-- Projects -->
-        <section id="projects">
+         <!-- Portofolio -->
+         <section id="portofolio">
+            <h2>Portofolio</h2>
+            <div class="portofolio-grid">
+
+               <!-- Education -->
+               <div class="portofolio-card">
+                  <h3>
+                     <img src="images/icons/mortarboard.svg" alt="Education"> Education
+                  </h3>
+                  <ul>
+                     <li>
+                        <img src="images/logos/udinus.png" alt="Udinus" class="item-logo">
+                        <div class="item-text">
+                           <strong>Universitas Dian Nuswantoro Semarang</strong><br>
+                           Teknik Informatika (2024 - Now)
+                        </div>
+                     </li>
+                     <li>
+                        <img src="images/logos/alazhar.png" alt="Al Azhar" class="item-logo">
+                        <div class="item-text">
+                           <strong>SMAI Al Azhar 16 Semarang</strong>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+
+               <!-- Experience -->
+               <div class="portofolio-card">
+                  <h3>
+                     <img src="images/icons/briefcase.svg" alt="Experience"> Experience
+                  </h3>
+                  <ul>
+                     <li>
+                        <img src="images/logos/dncc.png" alt="DNCC" class="item-logo">
+                        <div class="item-text">
+                           <strong>BTNG DNCC</strong><br>
+                           BTNG (Basic Training for Next Generation) merupakan pelatihan/bootcamp yang diadakan oleh DNCC untuk mahasiswa Universitas Dian Nuswantoro. Program ini mengembangkan keterampilan dasar di bidang teknologi sekaligus melatih soft skill agar peserta siap berkontribusi di dunia IT.
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+
+               <!-- Stack of Resource -->
+               <div class="portofolio-card">
+                  <h3>
+                     <img src="images/icons/code.svg" alt="Stack of Resource"> Stack of Resource
+                  </h3>
+                  <ul>
+                     <li>
+                        <img src="images/icons/cpp.svg" alt="C++ Logo" class="item-logo">
+                        <div class="item-text">
+                           <strong>C++</strong><br>
+                           Bahasa pemrograman yang berorientasi objek
+                        </div>
+                     </li>
+                     <li>
+                        <img src="images/icons/html5.svg" alt="Web Tech Stack" class="item-logo">
+                        <div class="item-text">
+                           <strong>HTML | CSS | JS</strong><br>
+                           Dasar membangun tampilan dan interaksi web
+                        </div>
+                     </li>
+                     <li>
+                        <img src="images/icons/sql.png" alt="SQL Logo" class="item-logo">
+                        <div class="item-text">
+                           <strong>SQL</strong><br>
+                           Bahasa standar untuk mengelola basis data relasional
+                        </div>
+                     </li>
+                     <li>
+                        <img src="images/icons/lua.png" alt="LUA Logo" class="item-logo">
+                        <div class="item-text">
+                           <strong>LUA (Currently Learning)</strong><br>
+                           Scripting untuk pengembangan game di Roblox
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <!-- Projects -->
+         <section id="projects">
             <h2>Projects</h2>
             <div class="project-grid">
-                <div class="project-card">
-                    <img src="images/porto.png" alt="Project 1">
-                    <h3>Website Portofolio</h3>
-                    <p>Website pribadi untuk menampilkan resume dan pengalaman saya dengan desain modern dan interaktif</p>
-                </div>
-                <div class="project-card">
-                    <img src="images/konversi.png" alt="Project 2">
-                    <h3>Konversi Mata Uang (C++)</h3>
-                    <p>Program sederhana konversi mata uang secara dua arah USD | IDR | YEN dengan interface yang user-friendly</p>
-                </div>
-                <div class="project-card">
-                    <img src="images/moonk.jpg" alt="Project 3">
-                    <h3>Coming Soon</h3>
-                    <p>Proyek menarik yang sedang dalam tahap pengembangan. Stay tuned!</p>
-                </div>
-                <div class="project-card">
-                    <img src="images/moonk.jpg" alt="Project 4">
-                    <h3>Coming Soon</h3>
-                    <p>Proyek baru yang akan segera hadir. Nantikan update selanjutnya!</p>
-                </div>
+               <a href="https://github.com/Valenorion/Web-Portofolio-2" class="project-card" target="_blank">
+                  <img src="images/illustration/project-web.png" alt="Project 1">
+                  <h3>Website Portofolio</h3>
+                  <p>Website pribadi untuk menampilkan resume dan pengalaman saya dengan desain modern dan interaktif.</p>
+               </a>
+               <a href="https://github.com/Valenorion/Konversi-Mata-Uang" class="project-card" target="_blank">
+                  <img src="images/illustration/project-konversi.png" alt="Project 2">
+                  <h3>Konversi Mata Uang (C++)</h3>
+                  <p>Program sederhana konversi mata uang secara dua arah USD | IDR | YEN dengan interface yang user-friendly.</p>
+               </a>
+               <a href="https://drive.google.com/file/d/1V_DqjEun0pqq97kGqb2Jd2g09okQ29RT/view" class="project-card" target="_blank">
+                  <img src="images/illustration/project-artikel-ilmiah.png" alt="Project 3">
+                  <h3>Artikel Ilmiah</h3>
+                  <p>Artikel ilmiah yang menganalisis nilai-nilai keteladanan dalam novel Misteri Pantai Mutiara karya Erlita Pratiwi.</p>
+               </a>
+               <a href="#!" class="project-card">
+                  <img src="images/illustration/project-coming-soon.png" alt="Project 4">
+                  <h3>Coming Soon</h3>
+                  <p>Proyek baru yang akan segera hadir. Nantikan update selanjutnya!</p>
+               </a>
+               <a href="#!" class="project-card">
+                  <img src="images/illustration/project-coming-soon.png" alt="Project 4">
+                  <h3>Coming Soon</h3>
+                  <p>Proyek baru yang akan segera hadir. Nantikan update selanjutnya!</p>
+               </a>
             </div>
-        </section>
+         </section>
 
-        <!-- Contact -->
-        <section id="contact">
+         <!-- Contact -->
+         <section id="contact">
             <h2>Contact Me</h2>
-            <form id="contactForm">
-                <input type="text" placeholder="Your Name" required id="name">
-                <input type="email" placeholder="Email" required id="email">
-                <textarea placeholder="Pesan..." rows="5" required id="message"></textarea>
-                <button type="submit">Send Message</button>
+            <form id="contactForm" action="https://formspree.io/f/xyzzreqk" method="POST" class="form" data-form>
+               <input type="text" placeholder="Your Name" required id="name">
+               <input type="email" placeholder="Email" required id="email">
+               <textarea placeholder="Pesan..." rows="5" required id="message"></textarea>
+               <button type="submit">Send Message</button>
             </form>
-        </section>
-    </main>
+         </section>
+      </main>
+      <footer class="site-footer">
+         <div class="footer-container">
+            <div class="footer-brand">
+               <h2 class="footer-logo">Valen</h2>
+               <p class="footer-desc">
+                  Beginner Programmer
+                  <br>
+                  Frontend Learner
+                  <br>
+                  Future Developer
+               </p>
+               <div class="footer-social">
+                  <a href="https://www.linkedin.com/in/valentio-titan-460370346/" aria-label="LinkedIn" target="_blank"><img src="images/icons/linkedin.svg" alt="LinkedIn Logo"></a>
+                  <a href="https://github.com/Valenorion" aria-label="GitHub" target="_blank"><img src="images/icons/github.svg" alt="Github Logo"></a>
+                  <a href="#contact" aria-label=""><img src="images/icons/email.svg" alt="Email Logo"><img src="" alt=""></a>
+                  <a href="https://www.instagram.com/tiotitann?igsh=MWc3Z2QyN2hlaW11ZA==" aria-label="Instagram" target="_blank"><img src="images/icons/instagram.svg" alt="Instagram Logo"></a>
+               </div>
+            </div>
+            <div class="footer-nav">
+               <div class="footer-group">
+                  <h3 class="footer-heading">Portfolio</h3>
+                  <ul>
+                     <li><a href="#projects">Projects</a></li>
+                     <li><a href="#projects">Case Studies</a></li>
+                     <li><a href="#portofolio">Skills</a></li>
+                     <li><a href="#portofolio">Experience</a></li>
+                  </ul>
+               </div>
+               <div class="footer-group">
+                  <h3 class="footer-heading">About</h3>
+                  <ul>
+                     <li><a href="#about">About Me</a></li>
+                     <li><a href="#about">Blog</a></li>
+                     <li><a href="#about">Testimonials</a></li>
+                     <li><a href="#about">Resume</a></li>
+                  </ul>
+               </div>
+               <div class="footer-group">
+                  <h3 class="footer-heading">Contact</h3>
+                  <ul>
+                     <li><a href="#contact">Get in Touch</a></li>
+                     <li><a href="https://www.linkedin.com/in/valentio-titan-460370346/" target="_blank">Hire Me</a></li>
+                     <li><a href="https://www.linkedin.com/in/valentio-titan-460370346/">Collaborate</a></li>
+                     <li><a href="#contact">Newsletter</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="footer-credits">
+            <p>© 2025 Valentio Titan. All rights reserved.</p>
+            <div class="credits-links">
+               <a href="#privacy">Privacy Policy</a>
+               <a href="#terms">Terms</a>
+               <a href="#cookies">Cookies</a>
+            </div>
+         </div>
+      </footer>
 
-    <footer>
-        <p>&copy; 2025 Valentio Titan | Created with 🩷</p>
-    </footer>
+      <!-- Scroll to Top Button -->
+      <div class="scroll-top" id="scrollTop">↑</div>
 
-    <!-- Link ke file JavaScript -->
-    <script src="script.js"></script>
-</body>
+      <script src="script.js"></script>
+   </body>
 </html>
