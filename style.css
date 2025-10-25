@@ -42,6 +42,13 @@ nav .logo:hover {
   transform: scale(1.05);
 }
 
+nav .logo img {
+  width: 55px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
 nav .logo-text {
   color: #764ba2;
   font-weight: 700;
@@ -85,6 +92,10 @@ nav ul li a:hover::after {
 
 nav ul li a:hover {
   color: #764ba2;
+}
+
+#about, #portofolio, #projects, #contact {
+  scroll-margin-top: 80px;
 }
 
 /* Hamburger */
