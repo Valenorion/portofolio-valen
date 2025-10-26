@@ -74,7 +74,7 @@ Dibangun dengan fokus pada desain modern, interaktif, dan responsif agar nyaman 
 
 ## 📸 Preview
 
-> https://valenorion.netlify.app
+> https://valen.my.id
 
 ---
 
