@@ -58,12 +58,12 @@ Dibangun dengan fokus pada desain modern, interaktif, dan responsif agar nyaman 
 1. Clone repository ini:
 
    ```bash
-   git clone https://github.com/[username]/[repository-name].git
+   git clone https://github.com/Valenorion/Web-Portofolio-2.git
    ```
 2. Buka folder proyek:
 
    ```bash
-   cd [repository-name]
+   cd Web-Portofolio-2
    ```
 3. Jalankan di browser:
 
