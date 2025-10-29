@@ -2,6 +2,10 @@
 
 Website ini adalah portofolio pribadi yang dibuat oleh saya (**Valentio Titan**)
 Dibangun dengan fokus pada desain modern, interaktif, dan responsif agar nyaman diakses di berbagai perangkat.
+---
+
+## 📸 Preview
+> https://valen.my.id
 
 ---
 
@@ -69,12 +73,6 @@ Dibangun dengan fokus pada desain modern, interaktif, dan responsif agar nyaman 
 
    * Klik dua kali `index.html`, atau
    * Jalankan dengan Live Server (VS Code extension)
-
----
-
-## 📸 Preview
-
-> https://valen.my.id
 
 ---
 
