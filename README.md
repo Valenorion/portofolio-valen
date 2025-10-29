@@ -6,7 +6,8 @@ Dibangun dengan fokus pada desain modern, interaktif, dan responsif agar nyaman 
 
 ## 📸 Preview
 > https://valen.my.id
-
+> https://valenorion.github.io/portofolio-valen/
+> https://valenorion.netlify.app/
 ---
 
 ## ✨ Fitur Utama
